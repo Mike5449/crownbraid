@@ -39,7 +39,7 @@ const policies: Record<string, { title: string; content: string[] }> = {
       "Minimum order quantities apply and vary by product. Bulk case deals may have different MOQ requirements.",
       "Payment terms for approved accounts include Net 30 for qualifying businesses. New accounts may be required to prepay for initial orders.",
       "Wholesale pricing is confidential and intended for approved account holders only. Sharing wholesale pricing publicly may result in account termination.",
-      "CrownBraid Supply Co. reserves the right to modify wholesale terms, pricing, and account status at any time with reasonable notice.",
+      "Ombreta MOLL GLOBAL reserves the right to modify wholesale terms, pricing, and account status at any time with reasonable notice.",
     ],
   },
 };
