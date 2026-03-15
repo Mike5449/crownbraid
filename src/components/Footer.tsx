@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center text-xs opacity-60">
-          © {new Date().getFullYear()} CrownBraid Supply Co. All rights reserved.
+          © {new Date().getFullYear()} OMBRETAMG. All rights reserved.
         </div>
       </div>
     </footer>

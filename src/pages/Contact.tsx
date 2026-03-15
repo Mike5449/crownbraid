@@ -47,11 +47,14 @@ const Contact = () => {
             </form>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-6 justify-center text-sm text-muted-foreground">
-              <a href="mailto:info@crownbraid.com" className="flex items-center gap-2 hover:text-gold transition-colors">
-                <Mail size={16} /> info@crownbraid.com
+              <a href="mailto:ombretamg@ombretamollglobal.com" className="flex items-center gap-2 hover:text-gold transition-colors">
+                <Mail size={16} /> ombretamg@ombretamollglobal.com
               </a>
-              <a href="tel:+18005551234" className="flex items-center gap-2 hover:text-gold transition-colors">
-                <Phone size={16} /> (800) 555-1234
+              <a href="tel:+18339585719" className="flex items-center gap-2 hover:text-gold transition-colors">
+                <Phone size={16} /> (833) 958-5719
+              </a>
+              <a href="https://wa.me/18339585719" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gold transition-colors">
+                <MessageCircle size={16} /> WhatsApp
               </a>
             </div>
           </div>
