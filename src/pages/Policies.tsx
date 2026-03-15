@@ -24,11 +24,11 @@ const policies: Record<string, { title: string; content: string[] }> = {
   terms: {
     title: "Terms & Conditions",
     content: [
-      "By accessing and using the CrownBraid Supply Co. website, you agree to be bound by these Terms and Conditions.",
+      "By accessing and using the Ombreta MOLL GLOBAL website, you agree to be bound by these Terms and Conditions.",
       "All prices listed are wholesale prices and are subject to change without notice. Prices are in USD and do not include shipping and handling unless otherwise stated.",
       "Orders are subject to product availability. We reserve the right to limit quantities and refuse orders at our discretion.",
-      "All intellectual property on this website, including logos, images, and content, is the property of CrownBraid Supply Co. and may not be reproduced without permission.",
-      "CrownBraid Supply Co. is not liable for any indirect, incidental, or consequential damages arising from the use of our products or services.",
+      "All intellectual property on this website, including logos, images, and content, is the property of Ombreta MOLL GLOBAL and may not be reproduced without permission.",
+      "Ombreta MOLL GLOBAL is not liable for any indirect, incidental, or consequential damages arising from the use of our products or services.",
     ],
   },
   "wholesale-terms": {
