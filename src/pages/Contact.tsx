@@ -3,7 +3,7 @@ import SectionHeading from "@/components/SectionHeading";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone, ShoppingBag, Tag, Package } from "lucide-react";
+import { Mail, Phone, ShoppingBag, Tag, Package, MessageCircle } from "lucide-react";
 import { useState } from "react";
 
 const inquiryTypes = [
