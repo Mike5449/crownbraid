@@ -22,7 +22,7 @@ const About = () => (
   <Layout>
     <section className="section-padding">
       <div className="container-wide max-w-3xl text-center">
-        <SectionHeading title="About CrownBraid Supply Co." />
+        <SectionHeading title="About Ombreta MOLL GLOBAL" />
         <p className="text-lg text-muted-foreground leading-relaxed mt-6">
           CrownBraid Supply Co. is a trusted wholesale supplier of premium braiding hair. We partner with beauty supply stores, salons, professional braiders, resellers, and distributors nationwide to deliver consistent quality, trending colors, and unbeatable value.
         </p>
