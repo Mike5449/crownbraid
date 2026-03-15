@@ -60,7 +60,7 @@ const steps = [
 ];
 
 const testimonials = [
-  { name: "Tameka J.", biz: "Beauty Supply Owner", quote: "CrownBraid is our #1 supplier. Consistent quality and the reorder process is seamless." },
+  { name: "Tameka J.", biz: "Beauty Supply Owner", quote: "Ombreta MOLL GLOBAL is our #1 supplier. Consistent quality and the reorder process is seamless." },
   { name: "Aisha R.", biz: "Professional Braider", quote: "My clients love the pre-stretched hair. It saves me 30 minutes per install." },
   { name: "Marcus D.", biz: "Online Reseller", quote: "The margins are great and my customers keep coming back for the same shades." },
 ];

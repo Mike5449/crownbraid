@@ -69,7 +69,7 @@ const Policies = () => {
             ))}
           </div>
           <p className="mt-10 text-sm text-muted-foreground">
-            Last updated: March 2026. For questions, contact us at legal@crownbraid.com.
+            Last updated: March 2026. For questions, contact us at ombretamg@ombretamollglobal.com.
           </p>
         </div>
       </section>
