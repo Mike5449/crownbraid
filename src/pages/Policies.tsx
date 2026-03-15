@@ -5,10 +5,10 @@ const policies: Record<string, { title: string; content: string[] }> = {
   return: {
     title: "Return Policy",
     content: [
-      "At CrownBraid Supply Co., we stand behind the quality of our products. If you receive a defective or damaged product, please contact us within 7 days of delivery.",
+      "At Ombreta MOLL GLOBAL, we stand behind the quality of our products. If you receive a defective or damaged product, please contact us within 7 days of delivery.",
       "Returns are accepted for unopened and unused products in their original packaging within 14 days of delivery. A restocking fee of 15% may apply.",
       "Custom and private label orders are non-refundable unless defective. Shipping costs for returns are the responsibility of the buyer unless the return is due to our error.",
-      "To initiate a return, please email returns@crownbraid.com with your order number and reason for return. Our team will respond within 24–48 business hours.",
+      "To initiate a return, please email returns@ombretamollglobal.com with your order number and reason for return. Our team will respond within 24–48 business hours.",
     ],
   },
   privacy: {
