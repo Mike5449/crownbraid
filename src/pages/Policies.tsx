@@ -14,7 +14,7 @@ const policies: Record<string, { title: string; content: string[] }> = {
   privacy: {
     title: "Privacy Policy",
     content: [
-      "CrownBraid Supply Co. respects your privacy and is committed to protecting your personal information. This policy outlines how we collect, use, and safeguard your data.",
+      "Ombreta MOLL GLOBAL respects your privacy and is committed to protecting your personal information. This policy outlines how we collect, use, and safeguard your data.",
       "We collect information you provide directly, such as your name, email, phone number, and business information when you apply for a wholesale account, place an order, or contact us.",
       "Your information is used to process orders, manage your wholesale account, send marketing communications (with your consent), and improve our services.",
       "We do not sell, trade, or rent your personal information to third parties. We may share information with trusted service providers who assist us in operating our business.",
