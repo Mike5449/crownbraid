@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import SectionHeading from "@/components/SectionHeading";
+import FeaturedProducts from "@/components/FeaturedProducts";
 import {
   DollarSign, Truck, Shield, Tag, MapPin,
   TrendingUp, Palette, BarChart3, RefreshCw, Heart,
@@ -12,12 +13,12 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-import heroImg from "@/assets/hero-braiding-hair.jpg";
-import catPre from "@/assets/cat-pre-stretched.jpg";
-import catOmbre from "@/assets/cat-ombre.jpg";
-import catColors from "@/assets/cat-colors.jpg";
-import catBulk from "@/assets/cat-bulk.jpg";
-import catPrivate from "@/assets/cat-private-label.jpg";
+import heroMain from "@/assets/hero-main.png";
+import catPre from "@/assets/prod-straight-bundle.jpg";
+import catOmbre from "@/assets/prod-blonde-ombre.jpg";
+import catColors from "@/assets/prod-burgundy.jpg";
+import catBulk from "@/assets/prod-body-wave.jpg";
+import catPrivate from "@/assets/prod-ginger.jpg";
 
 const trustItems = [
   { icon: DollarSign, label: "Bulk Pricing" },
@@ -28,10 +29,10 @@ const trustItems = [
 ];
 
 const categories = [
-  { img: catPre, title: "Pre-Stretched Braiding Hair", desc: "Salon-ready, pre-stretched for faster installs." },
-  { img: catOmbre, title: "Ombre Braiding Hair", desc: "Trending two-tone and gradient shades." },
-  { img: catColors, title: "Color Collections", desc: "Full spectrum of high-demand shades." },
-  { img: catBulk, title: "Bulk Packs / Case Deals", desc: "Volume pricing for serious retailers." },
+  { img: catPre, title: "Straight Hair Collections", desc: "Silky smooth straight bundles and wigs." },
+  { img: catOmbre, title: "Ombre & Blonde Hair", desc: "Trending two-tone and gradient shades." },
+  { img: catColors, title: "Colored Wigs", desc: "Bold colors from burgundy to ginger." },
+  { img: catBulk, title: "Body Wave & Curly", desc: "Volume pricing for serious retailers." },
   { img: catPrivate, title: "Private Label / Custom Orders", desc: "Build your own brand with our quality." },
 ];
 
@@ -71,28 +72,28 @@ const Index = () => {
   return (
     <Layout>
       {/* Hero */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0">
-          <img src={heroImg} alt="Premium wholesale braiding hair" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-primary/70" />
-        </div>
-        <div className="relative container-wide section-padding text-center text-primary-foreground py-24 sm:py-32 lg:py-40">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 max-w-4xl mx-auto">
-            Wholesale Braiding Hair for Salons, Beauty Supply Stores & Pro Braiders
-          </h1>
-          <p className="text-lg sm:text-xl opacity-90 mb-10 max-w-2xl mx-auto">
-            Reliable bulk supply, trend-forward colors, and fast reorder support.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="gold-gradient text-primary font-semibold text-base btn-shine">
-              <Link to="/wholesale">Apply for Wholesale Account</Link>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 font-medium">
-              <Link to="/collections">Shop Bulk Collections</Link>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 font-medium">
-              <Link to="/catalog">Request Catalog</Link>
-            </Button>
+      <section className="relative overflow-hidden bg-primary">
+        <div className="container-wide section-padding py-16 sm:py-24 lg:py-32">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div className="text-primary-foreground">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+                Premium Wholesale Hair for Salons & Beauty Pros
+              </h1>
+              <p className="text-lg sm:text-xl opacity-90 mb-10 max-w-xl">
+                Wigs, bundles, closures & frontals — reliable bulk supply, trend-forward colors, and fast reorder support.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button asChild size="lg" className="gold-gradient text-primary font-semibold text-base btn-shine">
+                  <Link to="/wholesale">Apply for Wholesale Account</Link>
+                </Button>
+                <Button asChild size="lg" variant="outline" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 font-medium">
+                  <Link to="/collections">Shop Collections</Link>
+                </Button>
+              </div>
+            </div>
+            <div className="flex justify-center lg:justify-end">
+              <img src={heroMain} alt="Premium straight hair wig" className="w-80 sm:w-96 lg:w-[28rem] rounded-2xl shadow-2xl object-cover" />
+            </div>
           </div>
         </div>
       </section>
@@ -111,8 +112,11 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Featured Product Categories */}
-      <section className="section-padding">
+      {/* Best Sellers */}
+      <FeaturedProducts />
+
+      {/* Shop by Collection */}
+      <section className="section-padding bg-secondary">
         <div className="container-wide">
           <SectionHeading title="Shop by Collection" subtitle="Curated categories to fit your store's needs." />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
@@ -135,9 +139,9 @@ const Index = () => {
       </section>
 
       {/* Why Retailers Buy From Us */}
-      <section className="section-padding bg-secondary">
+      <section className="section-padding">
         <div className="container-wide">
-          <SectionHeading title="Why Retailers Buy From Us" subtitle="Everything you need to run a profitable braiding hair business." />
+          <SectionHeading title="Why Retailers Buy From Us" subtitle="Everything you need to run a profitable hair business." />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-12">
             {whyUs.map((item) => (
               <div key={item.title} className="bg-card p-6 rounded-lg border border-border text-center card-hover">
@@ -153,7 +157,7 @@ const Index = () => {
       </section>
 
       {/* Who We Serve */}
-      <section className="section-padding">
+      <section className="section-padding bg-secondary">
         <div className="container-wide">
           <SectionHeading title="Who We Serve" subtitle="Trusted by beauty professionals across the industry." />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 mt-12">
