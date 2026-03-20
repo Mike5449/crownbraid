@@ -13,10 +13,10 @@ import prodGinger from "@/assets/prod-ginger.jpg";
 import prodBlondeOmbre from "@/assets/prod-blonde-ombre.jpg";
 import prodWaterWave from "@/assets/prod-water-wave.jpg";
 import prodFrontal from "@/assets/prod-frontal.jpg";
-import heroMain from "@/assets/hero-main.png";
+import prodStraightWig from "@/assets/prod-straight-wig.jpg";
 
 const featuredProducts = [
-  { img: heroMain, name: "Bone Straight HD Lace Wig 30\"", category: "Lace Front Wigs" },
+  { img: prodStraightWig, name: "Bone Straight HD Lace Wig 30\"", category: "Lace Front Wigs" },
   { img: prodBodyWave, name: "Body Wave Bundles 3pcs 24-26-28\"", category: "Hair Bundles" },
   { img: prodDeepWave, name: "Deep Wave Bundles 3pcs 22-24-26\"", category: "Hair Bundles" },
   { img: prodBurgundy, name: "Burgundy #99J Straight Wig 26\"", category: "Colored Wigs" },
