@@ -87,28 +87,32 @@ const Index = () => {
         <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[hsl(var(--gold))] to-transparent" />
 
         <div className="relative z-10 container-wide section-padding py-20 sm:py-28 lg:py-36">
-          <div className="max-w-2xl">
+          <div className="max-w-3xl">
             {/* Luxury badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[hsl(var(--gold)/0.4)] bg-[hsl(var(--gold)/0.08)] backdrop-blur-sm mb-8">
+            <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full border border-[hsl(var(--gold)/0.4)] bg-[hsl(var(--gold)/0.08)] backdrop-blur-sm mb-8">
               <Star size={14} className="text-[hsl(var(--gold))] fill-[hsl(var(--gold))]" />
-              <span className="text-xs font-medium tracking-[0.2em] uppercase text-[hsl(var(--gold))]">Collection Premium</span>
+              <span className="text-xs font-semibold tracking-[0.25em] uppercase text-[hsl(var(--gold))]">Serious Wholesale Supplier</span>
             </div>
 
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-7xl font-bold leading-[1.05] mb-6 text-white">
-              L'Excellence <br />
-              <span className="text-gold-gradient">Capillaire</span>
+            <h1 className="font-display text-3xl sm:text-4xl lg:text-6xl font-bold leading-[1.08] mb-6 text-white">
+              Wholesale Braiding Hair for{" "}
+              <span className="text-gold-gradient">Salons, Beauty Supply Stores</span>{" "}
+              & Pro Braiders
             </h1>
 
-            <p className="text-lg sm:text-xl text-white/80 mb-10 max-w-xl leading-relaxed font-light">
-              Wigs, bundles, closures & frontals de qualité supérieure — approvisionnement fiable, couleurs tendance, et un service sur mesure.
+            <p className="text-lg sm:text-xl text-white/80 mb-10 max-w-2xl leading-relaxed font-light">
+              Reliable bulk supply, trend-forward colors, and fast reorder support.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="gold-gradient text-primary font-semibold text-base btn-shine px-8 py-6 text-base">
-                <Link to="/wholesale">Devenir Partenaire</Link>
+              <Button asChild size="lg" className="gold-gradient text-primary font-semibold text-base btn-shine px-8 py-6">
+                <Link to="/wholesale">Apply for Wholesale Account</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="bg-white/5 backdrop-blur-sm border-white/20 text-white hover:bg-white/10 font-medium px-8 py-6 text-base">
-                <Link to="/collections">Explorer la Collection <ArrowRight size={16} className="ml-2" /></Link>
+              <Button asChild size="lg" variant="outline" className="bg-white/5 backdrop-blur-sm border-white/20 text-white hover:bg-white/10 font-medium px-8 py-6">
+                <Link to="/collections">Shop Bulk Collections <ArrowRight size={16} className="ml-2" /></Link>
+              </Button>
+              <Button asChild size="lg" variant="outline" className="bg-white/5 backdrop-blur-sm border-white/20 text-white hover:bg-white/10 font-medium px-8 py-6">
+                <Link to="/catalog">Request a Catalog <ClipboardList size={16} className="ml-2" /></Link>
               </Button>
             </div>
           </div>
