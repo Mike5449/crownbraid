@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import SectionHeading from "@/components/SectionHeading";
 
-import prodStraightBundle from "@/assets/prod-straight-bundle.jpg";
-import prodBodyWave from "@/assets/prod-body-wave.jpg";
+import prodStraightBundle from "@/assets/prod-straight-bundle-v2.jpg";
+import prodBodyWave from "@/assets/prod-body-wave-v2.jpg";
 import prodDeepWave from "@/assets/prod-deep-wave.jpg";
 import prodBurgundy from "@/assets/prod-burgundy.jpg";
 import prodKinkyCurly from "@/assets/prod-kinky-curly.jpg";
