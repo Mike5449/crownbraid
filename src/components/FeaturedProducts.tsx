@@ -13,7 +13,7 @@ import prodGinger from "@/assets/prod-ginger.jpg";
 import prodBlondeOmbre from "@/assets/prod-blonde-ombre.jpg";
 import prodWaterWave from "@/assets/prod-water-wave.jpg";
 import prodFrontal from "@/assets/prod-frontal.jpg";
-import prodStraightWig from "@/assets/prod-straight-wig.jpg";
+import prodStraightWig from "@/assets/prod-straight-wig-v2.jpg";
 
 const featuredProducts = [
   { img: prodStraightWig, name: "Bone Straight HD Lace Wig 30\"", category: "Lace Front Wigs" },
