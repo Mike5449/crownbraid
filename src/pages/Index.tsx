@@ -14,6 +14,7 @@ import {
 import { useState } from "react";
 
 import heroMain from "@/assets/hero-main.png";
+import heroBgLuxury from "@/assets/hero-bg-luxury.jpg";
 import catPre from "@/assets/prod-straight-bundle.jpg";
 import catOmbre from "@/assets/prod-blonde-ombre.jpg";
 import catColors from "@/assets/prod-burgundy.jpg";
