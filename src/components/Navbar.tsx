@@ -21,7 +21,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container-wide flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
         <Link to="/" className="font-display text-xl font-bold tracking-tight">
-          OMBRE<span className="text-gold-gradient">TAMG</span>
+          OMBRETA <span className="text-gold-gradient">MOLL GLOBAL</span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8">
