@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <h3 className="text-lg font-bold mb-4">
-              OMBRE<span className="text-gold">TAMG</span>
+              OMBRETA <span className="text-gold">MOLL GLOBAL</span>
             </h3>
             <p className="text-sm opacity-80 leading-relaxed">
               Premium wholesale braiding hair for salons, beauty supply stores, and professional braiders nationwide.
@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center text-xs opacity-60">
-          © {new Date().getFullYear()} OMBRETAMG. All rights reserved.
+          © {new Date().getFullYear()} OMBRETA MOLL GLOBAL. All rights reserved.
         </div>
       </div>
     </footer>
