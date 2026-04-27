@@ -77,8 +77,12 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} OMBRETA MOLL GLOBAL. All rights reserved.</p>
           <p>
             Developed by{" "}
-            <a href="mailto:ciatech2019@gmail.com" className="hover:text-gold transition-colors">
+            <a href="mailto:ciatech2019@gmail.com" className="hover:text-gold transition-colors font-medium">
               CIATECH
+            </a>{" "}
+            —{" "}
+            <a href="mailto:ciatech2019@gmail.com" className="hover:text-gold transition-colors">
+              ciatech2019@gmail.com
             </a>
           </p>
         </div>
