@@ -73,8 +73,14 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center text-xs opacity-60">
-          © {new Date().getFullYear()} OMBRETA MOLL GLOBAL. All rights reserved.
+        <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center text-xs opacity-60 space-y-1">
+          <p>© {new Date().getFullYear()} OMBRETA MOLL GLOBAL. All rights reserved.</p>
+          <p>
+            Developed by{" "}
+            <a href="mailto:ciatech2019@gmail.com" className="hover:text-gold transition-colors">
+              CIATECH
+            </a>
+          </p>
         </div>
       </div>
     </footer>
